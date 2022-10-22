@@ -3,11 +3,40 @@ package trabalho_Conta_Bancaria;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CadConta {
+public class CadConta implements Vetor {
 	
-	List<Conta> conta_cliente = new ArrayList<Conta>(); // verificar a Importação do ArrayList
+	//ArrayList<Conta> contas = new ArrayList<>();
 	
-	public void criarCliente(Conta c) { // verificar 
-		conta_cliente.add(c);
+	
+
+	@Override
+	public void getTamanho() {
+		// TODO Auto-generated method stub
+		
 	}
+
+	@Override
+	public void getConta() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void insere() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void quicksort() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void shellsort() {
+		// TODO Auto-generated method stub
+		
+	}
+		
 }
